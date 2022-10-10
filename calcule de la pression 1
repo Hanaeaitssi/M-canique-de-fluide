@@ -1,0 +1,6 @@
+p=input("Entrer la valeur de la pression en Pa")
+d=input("Entrer la valeur de diamètre ")
+p=float(p)
+d=float(d)
+F=p*d/2*d/2*3.14
+print("La valeur de la force préssante est:",F)
