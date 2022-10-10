@@ -1,0 +1,7 @@
+l=input("Entrer la langueur du solide en m")
+P=input("entrer sa profondeur en m ")
+l=float(l)
+P=float(P)
+p=9.8*1000*P
+F=p*P*l*0.001
+print("la pression en bas du barrage est:",p,"Pa","et la force exercée sur le solide du barrage est:",F,"kN")
