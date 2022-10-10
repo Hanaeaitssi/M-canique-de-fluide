@@ -1,0 +1,10 @@
+import numpy as np
+M=float(input("Entrer la valeur de masse volumique de mercure"))
+M1=float(input("Entrer la valeur de masse volumique du platine"))
+M2=float(input("Entrer la valeur de masse volumique du zinc"))
+min=((M1-M)/(M-M2))
+print("la valeur minimale de h1/h2 est:",min,"m")
+coeff=[1,-2.4,-3.62]
+sol= np.roots (coeff)
+print(sol[0]).real)
+print("la valeur maximale de h1/h2 est:",sol,"m")
